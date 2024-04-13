@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.square{
+    position: absolute; /**/
+    
+    
+    width: 360px; /*largura*/
+    height: 360px; /*altura*/
+    background-color: rgb(208, 0, 255);
+    left: 50% ; /**/
+    top: 50%; /**/
+    transform: translate(-50%,-50%); /*parametro do próprio Elemento*/
+    
+}
+.square2{
+    
+    position: absolute;
+    width: 220px; /*largura*/
+    height: 220px; /*altura*/
+    background-color: rgb(196, 225, 3);
+    left: 50% ; /**/
+    top: 50%; /**/
+    transform: translate(-50%,-50%); /*parametro do próprio Elemento*/
+}
+
+.square3{
+    
+    position: absolute;
+    width: 200; /*largura*/
+    height: 200; /*altura*/
+    background-color: rgb(225, 3, 3);
+    left: 50% ; /**/
+    top: 50%; /**/
+    transform: translate(-50%,-50%); /*parametro do próprio Elemento*/
+    
+
+    
+}
