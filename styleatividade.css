@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.grid{
+   display: flex; 
+  
+}
+
+
+
+.element1{
+    margin: 3px;
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+    background-color: rgb(30, 17, 128);
+    border-radius:200px 200px 5px 200px ;
+    
+}
+.element2{
+    margin: 3px;
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+    background-color: rgb(209, 13, 180);
+    border-radius: 200px 5px 200px 200px ;
+    
+}
+.element3{
+    margin: 3px;
+    width: 100px; /*largura*/
+    height: 50px; /*altura*/
+    background-color: rgb(30, 17, 128);
+    border-radius: 200px 5px 0px 0px ;
+    
+}
+.element4{
+    
+    margin: 3px;
+    width: 240px; /*largura*/
+    height: 100px; /*altura*/
+    background-color: rgb(209, 13, 180);
+    border-radius: 200px 200px 200px 5px;
+    
+}
+.element5 {
+    display: flex;
+}
+.element5 .element51{
+    
+    margin: 3px;
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+    
+    background-color: rgb(255, 161, 241);
+    border-radius: 0px 200px 200px 5px;
+    
+}
+.element5 .element52{
+    
+    margin: 3px;
+    width: 130px; /*largura*/
+    height: 100px; /*altura*/
+    
+    background-color: rgb(255, 161, 241);
+    border-radius:  200px 200px 5px;
+    
+}
+
+.element7{
+    
+    margin: 3px;
+    width: 100px; /*largura*/
+    height: 50px; /*altura*/
+    background-color: rgb(255, 161, 241);;
+    border-radius: 200px 200px 0px 0px ;
+    
+}
+.element6{
+    position: absolute;
+    margin: 3px;
+    width: 240px; /*largura*/
+    height: 50px; /*altura*/
+    background-color: rgb(209, 13, 180);
+    border-radius: 200px 200px 0px 0px ;
+    
+}
